@@ -39,6 +39,7 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+    padding-left: 30px;
 }
 
 section.normal{
@@ -49,6 +50,11 @@ section.normal{
 section.imagem{
     background-color: rgb(48, 48, 48);
     color: white;
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(17, 17, 17, 0.797);
 }
 
 
